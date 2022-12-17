@@ -232,3 +232,82 @@
         flex-grow: 0;
     }
 }
+
+@media only screen and (max-width:740px) {
+    .brands_div_left_1 {
+        font-size: 28px;
+        margin-bottom: -36px;
+    }
+    
+    .brands_div {
+        margin-bottom: 30px;
+    }
+
+    .brands_div_left_2,
+    .brands_div_left_3,
+    .brands_div_left_4 {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        font-feature-settings: 'liga' off;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .brands_div_left_1 {
+        font-size: 25px;
+        margin-bottom: -36px;
+        line-height: 40px;
+
+    }
+    
+    .brands_div {
+        margin-bottom: 30px;
+    }
+
+    .brands_div_left_2,
+    .brands_div_left_3,
+    .brands_div_left_4 {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        font-feature-settings: 'liga' off;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .brands_div_left_1 {
+        font-size: 22px;
+        margin-bottom: -46px;
+        line-height: 30px;
+
+    }
+    
+    .brands_div {
+        margin-bottom: 30px;
+    }
+
+    .brands_div_left_2,
+    .brands_div_left_3,
+    .brands_div_left_4 {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        font-feature-settings: 'liga' off;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
