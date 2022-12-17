@@ -235,7 +235,7 @@
 @media only screen and (max-width:660px) {
     .location_div_right_map {
         margin-left: -73px;
-        width: 110%;
+        width: 110% !important;
         height: 260px;
     }
 }
