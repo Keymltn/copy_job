@@ -26,7 +26,7 @@ const Brands = () => {
                         <div className="brands_div_right_unmobile">
                             <div className="brands_div_right_top"><img className='brands_div_right_img' src={scaniya} alt="" /><img className='brands_div_right_img' src={volvo} alt="" /></div>
                             <div className="brands_div_right_center"><img className='brands_div_right_img' src={man} alt="" /></div>
-                            <div className="brands_div_right_bottom"><img className='brands_div_right_img' src={daf} alt="" /><img className='brands_div_right_img' src={renault} alt="" /></div>z
+                            <div className="brands_div_right_bottom"><img className='brands_div_right_img' src={daf} alt="" /><img className='brands_div_right_img' src={renault} alt="" /></div>
                         </div>
                         <div className="brands_div_right_mobile">
                             <img className='brands_div_right_img' src={scaniya} alt="" />
