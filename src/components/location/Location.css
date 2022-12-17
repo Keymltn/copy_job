@@ -235,6 +235,14 @@
 @media only screen and (max-width:660px) {
     .location_div_right_map {
         margin-left: -73px;
+        width: 110%;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width:604px) {
+    .location_div_right_map {
+        margin-left: -73px;
         width: 112%;
         height: 260px;
     }
@@ -268,7 +276,7 @@
 @media only screen and (max-width:391px) {
     .location_div_right_map {
         margin-left: -73px;
-        width: 118%;
+        width: 113%;
         height: 260px;
     }
 
@@ -322,8 +330,24 @@
 
     .location_div_right_map {
         margin-left: -73px;
-        width: 125%;
+        width: 120%;
         height: 260px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .location_div_right_map {
+        margin-left: -73px;
+        width: 115%;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .location_div_right_map {
+        height: 260px !important;
+        width: 100% !important;
+        margin: 0 !important;
     }
 }
 
