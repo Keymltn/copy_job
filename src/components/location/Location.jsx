@@ -5,7 +5,7 @@ import '../location/Location.css';
 const Brands = () => {
     return (
         <div className='location'>
-            <div className="container_big_right">
+            <div className="container_big_right-greeay">
                 <div className="location_div">
                     <div className="location_div_left">
                         <h2 className="location_div_left_1">Где мы?</h2>

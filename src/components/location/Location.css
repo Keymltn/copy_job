@@ -1,13 +1,7 @@
-.container_big_right {
+.container_big_right-greeay {
     max-width: 1536px;
     width: 91.3%;
-    margin-left: auto;
-}
-
-.container_big_right2 {
-    max-width: 1536px;
-    width: 91.3%;
-    margin-left: auto;
+    margin: auto;
 }
 
 
@@ -18,7 +12,7 @@
 }
 
 .location_div {
-    width: 100%;
+    width: 104.7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +22,7 @@
 .location_div_left {
     height: 100%;
     width: 40%;
+    text-align: center;
 }
 
 
@@ -165,6 +160,14 @@
     .location_div_left_4 {
         margin-left: 3%;
         font-size: 14px !important;
+        max-width: 92%;
+    }
+
+    .container_big_right-greeay {
+        max-width: 1536px;
+        width: 91.3%;
+        margin: auto;
+        overflow: hidden;
     }
 }
 
@@ -195,8 +198,6 @@
     }
 
     .location_div_right_map {
-        margin-left: -73px;
-        width: 111%;
         height: 260px;
     }
 
@@ -213,10 +214,14 @@
     }
 }
 
+@media only screen and (max-width:733px) {
+    .location_div_left {
+        text-align: start;
+    }
+}
+
 @media only screen and (max-width:660px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 112%;
         height: 260px;
     }
 
@@ -234,32 +239,24 @@
 
 @media only screen and (max-width:660px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 110% !important;
         height: 260px;
     }
 }
 
 @media only screen and (max-width:604px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 112%;
         height: 260px;
     }
 }
 
 @media only screen and (max-width:523px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 114%;
         height: 260px;
     }
 }
 
 @media only screen and (max-width:432px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 116%;
         height: 260px;
     }
 }
@@ -275,8 +272,6 @@
 
 @media only screen and (max-width:391px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 113%;
         height: 260px;
     }
 
@@ -287,8 +282,6 @@
 
 @media only screen and (max-width:359px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 120%;
         height: 260px;
     }
 
@@ -329,23 +322,18 @@
     }
 
     .location_div_right_map {
-        margin-left: -73px;
-        width: 120%;
         height: 260px;
     }
 }
 
 @media only screen and (max-width:660px) {
     .location_div_right_map {
-        margin-left: -73px;
-        width: 115%;
         height: 260px;
     }
 }
 
 @media only screen and (max-width:530px) {
     .location_div_right_map {
-        height: 260px !important;
         width: 100% !important;
         margin: 0 !important;
     }
