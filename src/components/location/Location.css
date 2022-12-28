@@ -9,6 +9,8 @@
 
 .location {
     background-color: #F4F4F4;
+    width: 100%;
+    margin: auto;
 }
 
 .location_div {
